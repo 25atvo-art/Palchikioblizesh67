@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Пальчики оближеш</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+            width: 280px;
+            vertical-align: top;
+        }
+
+        .card h3 {
+            color: #d63384;
+        }
+
+        .price {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Кондитерська "Пальчики оближеш" 🍩
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Шоколадний торт</h3>
+        <p>Вага: 1200 г</p>
+        <p>шоколадний бісквіт, крем ганаш, мус</p>
+        <p class="price">520 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Полуничний торт</h3>
+        <p>Вага: 1100 г</p>
+        <p>бісквіт, крем, полуниця</p>
+        <p class="price">540 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Торт Наполеон</h3>
+        <p>Вага: 1000 г</p>
+        <p>листкове тісто, заварний крем</p>
+        <p class="price">480 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Медовик</h3>
+        <p>Вага: 1000 г</p>
+        <p>медові коржі, сметанний крем</p>
+        <p class="price">450 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Три шоколади</h3>
+        <p>Вага: 1150 г</p>
+        <p>мус з трьох шоколадів</p>
+        <p class="price">560 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Чізкейк класичний</h3>
+        <p>Вага: 900 г</p>
+        <p>вершковий сир, печиво, ваніль</p>
+        <p class="price">430 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Капкейк ванільний</h3>
+        <p>Вага: 120 г</p>
+        <p>ванільний бісквіт, крем</p>
+        <p class="price">65 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Макарун фісташковий</h3>
+        <p>Вага: 40 г</p>
+        <p>мигдальне печиво, крем</p>
+        <p class="price">55 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Еклер ванільний</h3>
+        <p>Вага: 90 г</p>
+        <p>заварне тісто, крем</p>
+        <p class="price">60 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Тістечко брауні</h3>
+        <p>Вага: 120 г</p>
+        <p>шоколад, какао</p>
+        <p class="price">75 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Панна-котта ягідна</h3>
+        <p>Вага: 150 г</p>
+        <p>вершки, ягоди</p>
+        <p class="price">85 грн</p>
+        <button>Купити</button>
+    </div>
+
+    <div class="card">
+        <h3>Рулет шоколадний</h3>
+        <p>Вага: 500 г</p>
+        <p>бісквіт, крем</p>
+        <p class="price">210 грн</p>
+        <button>Купити</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Пальчики оближеш
+</footer>
+
+</body>
+</html>
